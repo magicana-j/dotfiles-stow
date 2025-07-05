@@ -13,7 +13,15 @@ debug {
 }
 
 environment {
+    XDG_SESSION_TYPE "wayland"
+    XDG_CURRENT_DESKTOP "niri"
+    XDG_CURRENT_SESSION "niri"
+    _JAVA_AWT_WM_NONREPARENTING "1"
     QT_QPA_PLATFORM "wayland"
+    GDK_DPI_SCALE "1.0"
+    QT_SCALE_FACTOR "1.0"
+    MOZ_ENABLE_WAYLAND "1"
+    WINIT_UNIX_BACKEND "x11"
     DISPLAY null
 }
 
