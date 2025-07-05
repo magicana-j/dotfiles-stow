@@ -64,6 +64,39 @@
   <item label="Reconfigure">
     <action name="Reconfigure" />
   </item>
+  <item label="Accessories">
+    <item label="Geany">
+      <action name="Execute" command="geany" />
+    </item> 
+  </item> 
+  <item label="Internet">
+    <item label="">
+      <action name="" />
+    </item> 
+  </item> 
+  <item label="Graphics">
+    <item label="Gimp">
+      <action name="Execute" command="gimp" />
+    </item> 
+  </item> 
+  <item label="Multimedia">
+    <item label="VLC">
+      <action name="Execute" command="vlc" />
+    </item> 
+    <item label="OBS Studio">
+      <action name="Execute" command="obs" />
+    </item> 
+  </item> 
+  <item label="Games">
+    <item label="Steam">
+      <action name="steam" />
+    </item> 
+  </item> 
+  <item label="Programming">
+    <item label="VS Code">
+      <action name="code" />
+    </item> 
+  </item> 
   <item label="Exit">
     <action name="Exit" />
   </item>

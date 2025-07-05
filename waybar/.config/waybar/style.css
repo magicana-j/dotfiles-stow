@@ -1,5 +1,5 @@
 * {
-  font-size: 18px;
+  font-size: 16px;
   min-height: 0;
   border-radius: 1rem;
   padding: 0.1rem;
@@ -71,7 +71,7 @@ tooltip label {
 }
 
 #clock {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #battery icon {

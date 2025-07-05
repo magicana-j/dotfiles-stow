@@ -27,7 +27,7 @@ XKB_DEFAULT_LAYOUT=jp
 ## `find /usr/share/icons/ -type d -name "cursors"`
 ##
 
-# XCURSOR_THEME=breeze_cursors
+XCURSOR_THEME=breeze_cursors
 # XCURSOR_THEME=capitaine-cursors
 XCURSOR_SIZE=24
 
@@ -48,7 +48,7 @@ XCURSOR_SIZE=24
 ## mentioned here for completeness).
 ##
 
-# _JAVA_AWT_WM_NONREPARENTING=0
+_JAVA_AWT_WM_NONREPARENTING=0
 
 ##
 ## This allows xdg-desktop-portal-wlr to function (e.g. for screen-recording).
@@ -58,7 +58,7 @@ XCURSOR_SIZE=24
 ## then uncomment and adjust.
 ##
 
-# XDG_CURRENT_DESKTOP=labwc:wlroots
+XDG_CURRENT_DESKTOP=labwc:wlroots
 
 ##
 ## This causes a virtual output to be created automatically whenever there
@@ -74,4 +74,3 @@ XCURSOR_SIZE=24
 ##
 
 # LABWC_FALLBACK_OUTPUT=NOOP-fallback
-
