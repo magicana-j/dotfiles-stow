@@ -148,7 +148,7 @@ $mainMod = SUPER
 
 # Example binds, see https://wiki.hyprland.org/Configuring/Binds/ for more
 bind = $mainMod, RETURN, exec, $terminal
-bind = $mainMod, Q, killactive, 
+bind = $mainMod SHIFT, Q, killactive, 
 bind = $mainMod, M, exit, 
 bind = $mainMod, E, exec, $fileManager
 bind = $mainMod, V, togglefloating, 
@@ -204,3 +204,37 @@ bind = $mainMod, mouse_up, workspace, e-1
 # Move/resize windows with mainMod + LMB/RMB and dragging
 bindm = $mainMod, mouse:272, movewindow
 bindm = $mainMod, mouse:273, resizewindow
+
+
+##############################
+### WINDOWS AND WORKSPACES ###
+##############################
+
+# See https://wiki.hyprland.org/Configuring/Window-Rules/ for more
+# See https://wiki.hyprland.org/Configuring/Workspace-Rules/ for workspace rules
+
+# Example windowrule
+# windowrule = float,class:^(kitty)$,title:^(kitty)$
+
+# Ignore maximize requests from apps. You'll probably like this.
+windowrule = suppressevent maximize, class:.*
+
+# Fix some dragging issues with XWayland
+windowrule = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0
+
+windowrulev2 = float, class:^(pavucontrol)$
+windowrulev2 = float, title:^(Volume Control)$
+windowrulev2 = float, class:^(nm-connection-editor)$
+windowrulev2 = float, title:^(Network Connections)$
+windowrulev2 = float, class:^(xdg-desktop-portal)$
+
+windowrulev2 = float, title:^(dropdown-terminal)$
+windowrulev2 = center, title:^(dropdown-terminal)$
+windowrulev2 = size 80% 50%, title:^(dropdown-terminal)$
+
+windowrulev2 = float, class:^(lxqt-policykit-agent)$
+windowrulev2 = center, class:^(lxqt-policykit-agent)$
+
+windowrulev2 = float, title:^(Authentication Required|認証が必要です|Authentifizierung erforderlich)$
+windowrulev2 = center, title:^(Authentication Required|認証が必要です|Authentifizierung erforderlich)$
+

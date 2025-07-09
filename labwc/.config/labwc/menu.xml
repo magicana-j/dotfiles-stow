@@ -81,6 +81,9 @@
     </item> 
   </menu> 
   <menu id="multimedia" label="Multimedia">
+    <item label="Audacity">
+      <action name="Execute" command="audacity" />
+    </item> 
     <item label="VLC">
       <action name="Execute" command="vlc" />
     </item> 
