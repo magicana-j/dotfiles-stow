@@ -4,7 +4,7 @@ sudo xbps-install -Syu
 sudo xbps-install -Rsy void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree
 
 sudo xbps-install -Sy curl wget vim neovim unzip zip nano gparted xtools ntfs-3g fuse-exfat bash-completion linux-headers gcc htop fastfetch ufw gufw gvfs xdg-user-dirs-gtk stow
-sudo xbps-install -y wayland xorg-server-xwayland
+sudo xbps-install -y xorg wayland xorg-server-xwayland xdg-desktop-portal-gtk xdg-user-dirs-gtk xdg-utils
 sudo xbps-install -y dbus elogind polkit seatd
 sudo xbps-install -y xf86-video-intel mesa-dri mesa-intel-dri intel-ucode
 sudo xbps-install -y openh264 ffmpeg
