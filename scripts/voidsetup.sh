@@ -3,7 +3,7 @@ sudo xbps-install -u xbps
 sudo xbps-install -Syu
 sudo xbps-install -Rsy void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree
 
-sudo xbps-install -Sy curl wget git vim neovim unzip zip nano gparted xtools ntfs-3g fuse-exfat bash-completion linux-headers gcc htop fastfetch ufw gufw gvfs xdg-user-dirs-gtk stow
+sudo xbps-install -Sy curl wget vim neovim unzip zip nano gparted xtools ntfs-3g fuse-exfat bash-completion linux-headers gcc htop fastfetch ufw gufw gvfs xdg-user-dirs-gtk stow
 sudo xbps-install -y wayland xorg-server-xwayland
 sudo xbps-install -y dbus elogind polkit seatd
 sudo xbps-install -y xf86-video-intel mesa-dri mesa-intel-dri intel-ucode
@@ -21,7 +21,7 @@ sudo ln -snv /etc/sv/bluetoothd /var/service/
 sudo unlink /var/service/dhcpcd
 
 sudo xbps-install -y firefox
-sudo xbps-install -y foot kitty alacritty dunst wl-clipboard dolphin
+sudo xbps-install -y foot kitty alacritty dunst wl-clipboard dolphin Waybar swaybg swaylock swayidle
 sudo xbps-install -y Thunar thunar-archive-plugin
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
