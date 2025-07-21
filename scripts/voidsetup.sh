@@ -14,6 +14,7 @@ sudo xbps-install -y noto-fonts-cjk noto-fonts-ttf-extra noto-fonts-emoji font-a
 sudo xbps-install -y fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-gtk+2 fcitx5-gtk+3 fcitx5-gtk4 fcitx5-qt5 fcitx5-qt6
 sudo xbps-install -y bluez blueman libspa-bluetooth
 sudo xbps-install -y flatpak
+sudo xbps-install -y gnome-browser-connector
 
 sudo ln -snv /etc/sv/dbus /var/service/
 sudo ln -snv /etc/sv/NetworkManager /var/service/
