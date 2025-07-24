@@ -3,7 +3,7 @@
 sudo xbps-install -Syu
 sudo xbps-install -Rsy void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree
 
-sudo xbps-install -Sy curl wget vim neovim unzip zip nano htop fastfetch
+sudo xbps-install -Sy curl wget rsync vim neovim unzip zip nano htop fastfetch
 sudo xbps-install -y gparted xtools ntfs-3g fuse-exfat bash-completion
 sudo xbps-install -y linux-headers gcc make ufw gufw gvfs
 sudo xbps-install -y xorg wayland xorg-server-xwayland xdg-desktop-portal-gtk xdg-user-dirs-gtk xdg-utils
