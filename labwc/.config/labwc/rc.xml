@@ -262,7 +262,7 @@
       <action name="Execute" command="alacritty" />
     </keybind>
     <keybind key="W-d">
-      <action name="Execute" command="fuzzel" />
+      <action name="Execute" command="wofi --show drun" />
     </keybind>
     <keybind key="W-e">
       <action name="Execute" command="thunar" />
