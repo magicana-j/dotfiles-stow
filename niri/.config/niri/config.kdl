@@ -507,7 +507,7 @@ binds {
     Mod+Shift+Q hotkey-overlay-title=null { close-window; }
     Mod+BackSpace { close-window; }
 
-    Mod+D { spawn "wofi --show drun"; }
+    Mod+D { spawn "fuzzel"; }
     Mod+E { spawn "thunar"; }
     Mod+W { spawn "firefox"; }
 
