@@ -14,7 +14,7 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term foot
+set $term alacritty
 # Your preferred application launcher
 #set $menu wmenu-run
 set $menu wofi --show drun
@@ -63,7 +63,7 @@ exec --no-startup dbus-update-activation-environment DISPLAY WAYLAND_DISPLAY SWA
 exec --no-startup-id autotiling
 exec --no-startup-id nm-applet --indicator
 exec --no-startup-id fcitx5 -d
-exec --no-startup-id mako
+exec --no-startup-id dunst
 #exec_always autotiling
 
 input type:keyboard {
@@ -72,6 +72,7 @@ input type:keyboard {
 
 input type:touchpad {
     tap enabled
+    dwt enabled
 }
 
 ### Key bindings
@@ -232,6 +233,11 @@ bindsym $mod+r mode "resize"
     #bindsym $mod+shift+g exec wf-recorder -g "$(slurp)" -f "$(date +%Y-%m-%d-%H%M%S).mp4"
 
 #
+#
+#
+bindsym Print exec grim ~/Pictures/screenshot_$(date "+%Y%m%d_%H%M%S").png | wl-copy
+
+#
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
@@ -288,5 +294,5 @@ for_window [title="^Steam Keyboard$"] floating enable
 #for_window [class="^VirtualBox Manager$" title="^Oracle VirtualBox Manager$"] floating enable
 
 
-include ~/.config/sway/config.d/*
+#include ~/.config/sway/config.d/*
 
