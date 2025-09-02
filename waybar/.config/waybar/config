@@ -6,11 +6,11 @@
     "spacing": 5,
     "modules-left": [
       "custom/launcher",
-      "hyprland/window",
-      "custom/texttwo",
-      "custom/textthree",
-      "custom/textfour",
-      "custom/textfive"
+      "hyprland/window"
+//      "custom/texttwo",
+//      "custom/textthree",
+//      "custom/textfour",
+//      "custom/textfive"
     ],
     "modules-center": [
       "sway/window"
