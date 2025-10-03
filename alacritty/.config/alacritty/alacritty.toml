@@ -5,14 +5,6 @@ size = 15.0
 family = "Noto Sans Mono CJK JP"
 style = "Regular"
 
-[font.bold]
-family = "Noto Sans Mono CJK JP"
-style = "Bold"
-
-[font.italic]
-family = "Noto Sans Mono CJK JP"
-style = "Italic"
-
 [font.offset]
 x = 0
 y = 0
@@ -23,6 +15,7 @@ y = 0
 
 [window]
 decorations = "full"
+opacity = 0.85
 
 [window.dimensions]
 columns = 100
