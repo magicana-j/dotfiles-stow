@@ -226,8 +226,8 @@ bindsym $mod+r mode "resize"
     # Special key to take a screenshot with grim
     bindsym Print exec grim
 
-    set $psf $(xdg-user-dir PICTURES)/ps_$(date +"%Y-%m-%d-%H%M%S").png
-    set $recf $(xdg-user-dir VIDEOS)/rec_$(date +"%Y-%m-%d-%H%M%S").mp4
+#    set $psf $(xdg-user-dir PICTURES)/ps_$(date +"%Y-%m-%d-%H%M%S").png
+#    set $recf $(xdg-user-dir VIDEOS)/rec_$(date +"%Y-%m-%d-%H%M%S").mp4
     bindsym $mod+shift+s exec grim -g "$(slurp)" $psf
     bindsym $mod+shift+g exec wf-recorder "$(slurp)" -f $recf
     #bindsym $mod+shift+g exec wf-recorder -g "$(slurp)" -f "$(date +%Y-%m-%d-%H%M%S).mp4"
@@ -235,7 +235,7 @@ bindsym $mod+r mode "resize"
 #
 #
 #
-bindsym Print exec grim ~/Pictures/screenshot_$(date "+%Y%m%d_%H%M%S").png | wl-copy
+#bindsym Print exec grim ~/Pictures/screenshot_$(date "+%Y%m%d_%H%M%S").png | wl-copy
 
 #
 # Status Bar:

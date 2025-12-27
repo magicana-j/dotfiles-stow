@@ -1,7 +1,7 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 30,
+    "height": 36,
 
     "modules-left": [
         "clock",
@@ -22,7 +22,7 @@
     ],
 
     "clock": {
-        "format": "{:%Y-%m-%d %H:%M:%S}",
+        "format": "{:%Y-%m-%d %H:%M}",
         "interval": 1,
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
