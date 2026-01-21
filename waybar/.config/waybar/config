@@ -18,6 +18,7 @@
         "network",
         "load",
         "pulseaudio",
+        "battery",
         "tray"
     ],
 
@@ -88,6 +89,19 @@
         "format-muted": "VOL: Mute",
         "on-click": "pavucontrol",
         "tooltip-format": "{desc}"
+    },
+
+    "battery": {
+        "interval": 30,
+        "states": {
+          "warning": 30,
+          "critical": 15
+        },
+        "format": "BAT: {capacity}%",
+        "format-charging": "BAT: {capacity}% (chg)",
+        "format-plugged": "BAT: {capacity}% (AC)",
+        "format-alt": "BAT: {time}",
+        "tooltip-format": "{capacity}%\n{time}"
     },
 
     "tray": {

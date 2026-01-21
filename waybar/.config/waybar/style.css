@@ -24,6 +24,7 @@ window#waybar.hidden {
 #network,
 #load,
 #pulseaudio,
+#battery,
 #tray {
     padding: 0 12px;
     margin: 4px 2px;
@@ -95,6 +96,11 @@ window#waybar.hidden {
     background-color: rgba(243, 139, 168, 0.15);
 }
 
+#battery {
+    color: #f5c2e7;
+    background-color: rgba(245, 194, 231, 0.15);
+}
+
 #tray {
     background-color: rgba(49, 50, 68, 0.8);
 }
@@ -115,6 +121,7 @@ window#waybar.hidden {
 #network:hover,
 #load:hover,
 #pulseaudio:hover,
+#battery:hover,
 #tray:hover {
     background-color: rgba(69, 71, 90, 0.9);
     transition: all 0.3s ease;
